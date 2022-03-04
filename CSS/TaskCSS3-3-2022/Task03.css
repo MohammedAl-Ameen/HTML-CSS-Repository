@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(206, 79, 206);
+}
+
+p:not(.four){
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+
+}
+
+.four{
+  
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  overflow: auto;
+  width: auto;
+  height: 100px;
+  margin: 10px 0px;
+
+}
+
+
+

@@ -1,0 +1,9 @@
+div{
+
+    width: 200px;
+    height: 400px;
+    position: fixed;
+    background-image: url(../../Images/cat.jpg);
+    background-size: 200px 400px;
+    left: 70%;
+}

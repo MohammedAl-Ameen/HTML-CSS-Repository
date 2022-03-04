@@ -1,0 +1,21 @@
+.green{
+    
+  height: 4vh;
+  width: 4vh;
+  background-color: green;
+  position: relative;
+  top: 2vh;
+
+}
+.yellow{
+    background-color: yellow;
+    height: 4vh;
+    width: 4vh;
+  
+
+}
+
+div{
+    display: inline-block;
+    border: 0.5px black solid;
+}

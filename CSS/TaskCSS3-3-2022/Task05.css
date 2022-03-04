@@ -1,0 +1,18 @@
+body{
+    padding: center;
+    width: 100sw;
+    height: 100vh;
+    background-color: greenyellow;
+    border: yellow double 50px;
+}
+
+
+div{
+
+position: absolute;
+right: 38%;
+top: 50%;
+font-size: 50px;
+text-align: center;
+color: white;
+}

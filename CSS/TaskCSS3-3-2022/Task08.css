@@ -1,0 +1,42 @@
+p.blue{
+
+
+    color: blue;
+
+}
+
+h1{
+
+    text-decoration: underline;
+
+}
+
+a{
+    color: yellow;
+}
+
+a.first{
+    color: red;
+    background-color: yellow;
+}
+
+li{
+
+    color: darkblue;
+}
+
+li.black{
+
+    color: black;
+
+}
+
+a.red{
+
+    color: red;
+    text-decoration: underline;
+
+}
+
+
+
