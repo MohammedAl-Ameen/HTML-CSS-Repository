@@ -15,23 +15,18 @@ ul{
 
     background-color: grey;
     float: right;
-    margin-top: 0px;
-    width: 25%;
-    padding-bottom: 100%;
   
 }
 
 .paragraph{
-    margin-top: 0px;
+    float: left;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 100%;
   
 
 }
 
 
-.floatting{
+.fixed{
     position: fixed;
     background-color: rgba(128, 128, 128, 0.808);
     color: white;

@@ -1,0 +1,19 @@
+@keyframes dot {
+    0%{transform: scale(1);}
+    50% {transform: scale(2);}
+   
+
+}
+
+
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    animation-name: dot;
+    animation-duration: 4s;
+    margin-top: 200px;
+    margin-left: 200px;
+}

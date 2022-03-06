@@ -1,0 +1,31 @@
+@keyframes blue{
+    
+    50%{padding-right: 20%;}
+    
+    
+}
+
+
+@keyframes pink {
+    50%{padding: 20%;}
+    
+}
+
+.first{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: blue;
+    animation-duration: 2s;
+}
+
+.second{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: pink;
+    animation-name: pink;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}

@@ -1,0 +1,55 @@
+
+@keyframes green {
+    50%{background-color: green;}
+}
+
+@keyframes yellow {
+    50%{background-color: yellow;}
+}
+
+@keyframes red {
+    50%{background-color: red;}
+}
+
+
+div{
+    width: 50px;
+    height: 150px;
+    background-color: black
+}
+
+li{
+
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+
+.red{
+
+    
+    animation: red 1s 1s;
+
+    
+}
+
+
+.yellow{
+
+    animation: yellow 1s;
+    animation-delay: 2s;
+
+}
+
+
+.green{
+
+    animation: green 1s 3s;
+}
