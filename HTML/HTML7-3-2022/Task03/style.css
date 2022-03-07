@@ -1,0 +1,25 @@
+#con{
+    display: flex;
+    border: #a59d2a 10px solid;
+    height: 300px;
+    width: 100px;
+}
+
+
+
+.one{
+background-color: red;
+height: 300px;
+width: 50px;
+line-height: 300px;
+text-align: center; 
+}
+
+.two{
+    background-color: blue;
+    height: 300px;
+    width: 50px;
+    line-height: 300px;
+text-align: center; 
+
+}

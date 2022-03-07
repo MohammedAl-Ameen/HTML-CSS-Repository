@@ -1,0 +1,16 @@
+.contener{
+    display: grid;
+    border: 1px black solid;
+    width: 800px;
+    height: 400px;
+    grid-column: auto auto auto;
+    grid-row: auto auto auto;
+}
+
+
+.contener > div{
+    border: 1px blue solid;
+}
+
+
+

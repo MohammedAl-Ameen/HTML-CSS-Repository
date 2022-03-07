@@ -1,0 +1,64 @@
+#div1{
+    display: flex;
+    border: #a59d2a 20px solid;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.divinside1{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
+
+.divinside2{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.divinside3{
+    width: 20%;
+    height: 100%;
+    background-color: purple;
+}
+
+
+.divinside4{
+    width: 20%;
+    height: 100%;
+    background-color: gray;
+}
+
+.divinside5{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+.divinside6{
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+}
+
+
+.divinside7{
+    width: 20%;
+    height: 100%;
+    background-color: pink;
+}
+
+
+.divinside7{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+}
+
+.divinside7{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(119, 11, 11);
+}
