@@ -1,16 +1,35 @@
-.contener{
+.container{
     display: grid;
-    border: 1px black solid;
-    width: 800px;
-    height: 400px;
-    grid-column: auto auto auto;
-    grid-row: auto auto auto;
-}
-
-
-.contener > div{
-    border: 1px blue solid;
+    width: 2000px;
+    height: 1000px;
+   
 }
 
 
 
+.black{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.green{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+
+.orange{
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 4;
+   
+}
+
+.blue{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

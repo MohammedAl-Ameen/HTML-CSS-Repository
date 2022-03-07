@@ -1,18 +1,24 @@
-@keyframes moveit {
-    0%   {background-image:linear-gradient(red, yellow); left:0px; top:0px;}
-    25%  {background-image:linear-gradient(blue, yellow); left:200px; top:0px;}
-    50%  {background-image:linear-gradient(green, yellow); left:200px; top:200px;}
-    75%  {background-image:linear-gradient(red, blue); left:0px; top:200px;}
-    100% {background-image:linear-gradient(green, pink); left:0px; top:0px;}
+div {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-radius: 50%;
+    background-size: contain;
+    position: relative;
+    transition: 3s;
+    animation: moveit 8s linear infinite;
 }
 
-div{
-    border: black 2px solid;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: orange;
-    animation: moveit infinite;
-    animation-duration: 4s;
-    
+@keyframes moveit {
+    0%{
+        left: 100%;
+    }
+
+    50%{
+        left: -50%;
+    }
+    100%{
+        left: 100%;
+    }
+
 }

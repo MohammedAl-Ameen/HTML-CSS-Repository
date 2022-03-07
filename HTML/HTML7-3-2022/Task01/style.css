@@ -3,6 +3,7 @@
     border: #a59d2a 20px solid;
     width: 100vh;
     height: 100vh;
+    align-content: flex-start;
 }
 
 

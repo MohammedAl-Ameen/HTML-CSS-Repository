@@ -1,14 +1,44 @@
-.con{
+.container{
     display: flex;
-    width: 100vh;
-    height: 100vh;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 1000px;
+    align-content: flex-start;
+  
 
 }
 
-div{
-
+img{
+    background-image: url(../../../Images/cat.jpg);
+    background-size: 100%;
     border: 1px black solid;
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
 
 }
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    img{
+        background-image: url(../../../Images/cat.jpg);
+        background-size: 100%;
+        border: 1px black solid;
+        width: 300px;
+        height: 400px;
+    
+    }
+
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 1000px;
+        align-content: flex-start;
+    
+    }
+}
+
+

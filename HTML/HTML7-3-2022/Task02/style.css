@@ -2,69 +2,71 @@
     display: flex;
     flex-wrap: wrap;
     border: #bbb55c 3px solid;
-    width: 200px;
-    height: 100px;
-    
-    
+    width: 800px;
+    height: 600px;
+    align-content: flex-start;
 }
 
-
-
-
 .divinside1{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: green;
     
 }
 
 .divinside2{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: yellow;
 }
 
 .divinside3{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: purple;
 }
 
 
 .divinside4{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: gray;
 }
 
 .divinside5{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: blue;
 }
 
 .divinside6{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: orange;
 }
 
 
 .divinside7{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: pink;
 }
 
 
-.divinside7{
-    width: 50px;
-    height: 50px;
+.divinside8{
+    width: 200px;
+    height: 200px;
     background-color: red;
 }
 
-.divinside7{
-    width: 50px;
-    height: 50px;
+.divinside9{
+    width: 200px;
+    height: 200px;
     background-color: rgb(119, 11, 11);
+}
+
+.divinside10{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 143, 44);
 }
